@@ -1,11 +1,10 @@
 # Predicting-the-Bulk-Modulus-of-Inorganic-Crystals
 
-We get data from Matminer, expanded with the Magpie feature generator
+This repository focuses on predicting the bulk modulus of inorganic crystals using machine learning techniques. 
 
-The project requires implementing Principal Component Analysis (PCA) to analyze the data structure, followed by model selection to optimize prediction performance using various regression techniques, including linear regression, Ridge, Lasso, decision trees, and kernel ridge regression. 
+The dataset, sourced from Matminer, has been expanded with the Magpie feature generator. 
 
-Feature selection methods such as LASSO with LARS and Recursive Feature Elimination (RFE) are used to identify important features. 
+The project involves Principal Component Analysis (PCA), linear regression models (Least Squares, Ridge, Lasso), polynomial feature expansion, decision tree regressors, kernel ridge regression, and feature selection techniques (LARS, Recursive Feature Elimination). 
 
-The results should be compiled into a scientific report, structured like a short communication, with sections covering theory, methodology, results, and conclusions. 
+The goal is to find the optimal predictive model by evaluating different approaches based on performance metrics. The implementation adheres to structured coding practices, and all functions are well-documented for clarity.
 
-Code must adhere to given constraints, use provided functions, and be well-documented.
